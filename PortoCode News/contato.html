@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Página de Contato</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Contato</title>
+    </head>
+    <body>
+        <h1>Fale Conosco!</h1>
+        <form action="" method="get">
+            <fieldset>
+                <label for="nome">Nome:</label> <br>            
+                <input type="text" name="nome" id="nome" required>
+                <br><br>
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="Assunto">Assunto:</label> <br>
+                <select name="Assunto" id="Assunto" required>
+                    <option disabled selected>Escolha um assunto</option>
+                    <option value="Dúvidas">Dúvidas</option>
+                    <option value="Objeções">Objeções</option>
+                    <option value="Sugestões">Sugestões</option>
+                    <option value="Solicitação">Solicitação</option>
+                    <option value="Agendamento">Agendamento</option>
+                </select>
+                <br><br>
+                <label for="mensagem">Mensagem:</label> <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite aqui sua mensagem" required></textarea>
+                <br><br>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+        <br>
+        <a href="index.html" target="_blank">Voltar a página principal</a>
+        <footer>
+            <br>
+            <div>
+                Direitos Autorais: Nicoli Lopes
+            </div>
+            <br>
+            <div>
+                Redes sociais: <br>
+                <a href="http://" target="_blank">Facebook</a>
+                <br>
+                <a href="http://" target="_blank">Instagram</a>
+                <br>
+                <a href="http://" target="_blank">Twitter</a>
+            </div>
+            <br>
+            <div>
+                <a href="contato.html" target="_blank">Fale Conosco!</a>
+            </div>
+        </footer>
+    </body>
 </html>
